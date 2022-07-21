@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@font-face {
+    font-family:"dwarf";
+    src: url("fonte/dwarvinian/Dwarvinian.ttf") format("truetype");
+    font-style: normal;
+}
+:root{
+    --cor1: #498ba3;
+    --cor2: #9cd9f0;
+    --cor3: #f0c76a;
+    --cor4: #E3DACD;
+}
+
+/**{
+    width: 1333px;
+   height: 2454px;
+}*/ 
+
+body{
+    background-image: linear-gradient(180deg, var(--cor1) , var(--cor2));
+    display: inline-block;
+    background-attachment: fixed;
+}
+header{
+    width:1333px;
+    height: 130px;
+}
+
+
+h1#titulo{
+    text-align: center;
+    color: #b3954f;
+    font: normal 6em "dwarf", sans-serif;
+    margin: auto;
+    padding: 3px;
+    width: 192.78px;
+    height: 96px;
+}
+
+nav{
+    width: 603px;
+    height: 27px;
+    font: normal 1.5em Arial, Helvetica, sans-serif;
+}
+
+
+ nav > a{
+    text-decoration: none;
+    /*margin:125px;*/
+    color: var(--cor4);
+    width: 100px;
+    height: 40px;
+   
+ }
+
+
+ nav > a:hover{
+    background-color: #b3954f;
+    text-decoration: underline;
+    color: var(--cor1);
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.350);
+ }
+
+abbr{
+    text-decoration: none;
+}
+
+picture{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+div#soon{
+    width: 150px;
+    height: 150px;
+    margin-top: 191px;
+    margin: auto;
+}
+    
+.quadro{
+    display:inherit;
+    width: 120px;
+    height: 173px;
+    border: #498ba3 solid;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.descrição{
+    width: 149px;
+    height: 215px;
+    text-align: justify;
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.descrição p {
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    background-color: var(--cor3);
+    width: 1270px;
+    height:635px;
+    margin: 15px;
+    box-shadow: 3px 1px 3px 0px rgb(0 0 0 / 30%);
+   }
+
+section h2 {
+    color: var(--cor1);
+    text-align: center;
+    width: 1270px;
+    
+}
+
+section > p {
+    width: 1250px;
+    text-align: center;
+}
+
+
+main{
+    text-align: justify;
+}
+
+ footer{
+    text-align: end;
+    color: #f5bc6d;
+    background-color: #25526475;
+    margin: 0px;
+    padding: 3px;
+    width: 185px;
+    height: 20px;
+    border-radius: 10px;
+ }
