@@ -80,7 +80,6 @@ div#soon{
 }
     
 .quadro{
-    display:inherit;
     width: 120px;
     height: 173px;
     border: #498ba3 solid;
@@ -92,14 +91,57 @@ div#soon{
     width: 149px;
     height: 215px;
     text-align: justify;
-    display: inline-block;
-    margin: 0px 5px;
 }
 
 .descrição p {
     margin: 0px;
     padding: 0px;
 }
+#cidade{
+    position: absolute;
+    top: 27%;
+}
+#planice{
+    position: relative;
+    left: 157px;
+    bottom:4%;
+}
+
+#povo{
+    position: absolute;
+    top: 60%;
+}
+
+#gonullu{
+    position: relative;
+    top: -4%;
+    left: 157px;
+}
+
+#pico{
+    position: absolute;
+    top: 91%;
+}
+
+#arcano{
+    position:relative;
+    top: -5%;
+    left: 157px;
+}
+
+#oasis{
+    position:absolute;
+    top: 27%;
+    left: 84%;
+
+}
+
+#sand{
+    position: relative;
+    top: -106%;
+    left: 76%
+}
+
 
 section{
     background-color: var(--cor3);
@@ -107,6 +149,7 @@ section{
     height:635px;
     margin: 15px;
     box-shadow: 3px 1px 3px 0px rgb(0 0 0 / 30%);
+
    }
 
 section h2 {
