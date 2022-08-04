@@ -88,7 +88,7 @@ div#soon{
 }
 
 .descrição{
-    width: 149px;
+    width: 150px;
     height: 215px;
     text-align: justify;
 }
@@ -99,49 +99,37 @@ div#soon{
 }
 #cidade{
     position: absolute;
-    top: 27%;
+    top: 173px;
 }
 #planice{
-    position: relative;
-    left: 157px;
-    bottom:4%;
-}
-
-#povo{
     position: absolute;
-    top: 60%;
-}
-
-#gonullu{
-    position: relative;
-    top: -4%;
-    left: 157px;
+    top:170px;
+    left: 175px;
+   
 }
 
 #pico{
     position: absolute;
-    top: 91%;
+    top: 380px;
 }
 
 #arcano{
-    position:relative;
-    top: -5%;
-    left: 157px;
+    position:absolute;
+    top: 385px;
+    left: 175px;
 }
 
-#oasis{
-    position:absolute;
-    top: 27%;
-    left: 84%;
 
+#oasis{
+    position: absolute;
+    top: 590px;
 }
 
 #sand{
-    position: relative;
-    top: -106%;
-    left: 76%
+    position: absolute;
+    top: 600px;
+    left: 175px;
 }
-
 
 section{
     background-color: var(--cor3);
